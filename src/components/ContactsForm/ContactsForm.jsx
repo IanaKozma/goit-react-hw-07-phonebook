@@ -17,8 +17,8 @@ const ContactsForm = () => {
         const dispatch = useDispatch();
         const ContactsArray = useSelector(getContacts);
 
-    const formSubmitHandler = (data, { resetForm }) => {
-        data.preventDefault();
+    const formSubmitHandler = (e, data, { resetForm }) => {
+        e.preventDefault();
             if (
                 ContactsArray.find(
                     contact => contact.name.toLowerCase() === data.name.toLowerCase()
