@@ -28,5 +28,6 @@ export const Subtitle = styled.h2`
     font-weight: 900;
     color: var(--main-text-color);
     margin-bottom: 30px;
+    margin-top: 50px;
     text-align: center;
 `;

@@ -13,7 +13,9 @@ export const Icon = styled.span`
     background-color: var(--accent-bg-color);
     color: var(--second-text-color);
     margin-right: 30px;
-    padding: 15px;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
 `;
 
 export const Button = styled.button`
